@@ -4,7 +4,7 @@
 
   Tentaremos ao máximo traduzir conteúdos do Inglês para o Português e qualquer linguagem para o Python.
 
-# O que é o metter?
+# O que é o Matter?
   
   Matter (anteriormente Project Connected Home over IP, ou Project CHIP) é um novo Grupo de Trabalho dentro da Connectivity Standards Alliance (CSA, anteriormente Zigbee Alliance). Este Grupo de Trabalho planeja desenvolver e promover a adoção de um novo padrão de conectividade livre de royalties para aumentar a compatibilidade entre os produtos domésticos inteligentes, com a segurança como um princípio fundamental de design. 
   
@@ -14,9 +14,10 @@ A CSA abriu oficialmente o Matter Working Group em 17 de janeiro de 2020 e está
 Visite buildwithmatter.com para saber mais e ler as últimas notícias e atualizações sobre o projeto.
 
 # Visão do projeto.
-Objetivos de desenvolvimento
 
-  A matéria é desenvolvida com os seguintes objetivos e princípios em mente:
+*Objetivos de desenvolvimento*
+
+  O Matter é desenvolvido com os seguintes objetivos e princípios em mente:
 
   *Unifying*: Matter produzirá uma nova especificação, construída com e em cima de tecnologias existentes testadas no mercado.
 
