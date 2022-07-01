@@ -18,24 +18,24 @@ Objetivos de desenvolvimento
 
   A matéria é desenvolvida com os seguintes objetivos e princípios em mente:
 
-  Unifying: Matter produzirá uma nova especificação, construída com e em cima de tecnologias existentes testadas no mercado.
+  *Unifying*: Matter produzirá uma nova especificação, construída com e em cima de tecnologias existentes testadas no mercado.
 
-  Interoperável: A especificação permite a comunicação entre qualquer dispositivo certificado pela Matter, sujeito à permissão dos usuários.
+  *Interoperável*: A especificação permite a comunicação entre qualquer dispositivo certificado pela Matter, sujeito à permissão dos usuários.
 
-  Segurança: A especificação aproveita as práticas e protocolos de segurança modernos.
+  *Segurança*: A especificação aproveita as práticas e protocolos de segurança modernos.
 
-  Controle do usuário: O usuário final está no controle da autorização para interação com os dispositivos.
+  *Controle do usuário*: O usuário final está no controle da autorização para interação com os dispositivos.
 
-  Federado: Nenhuma entidade única serve como regulador ou ponto único de falha para a raiz de confiança.
+  *Federado*: Nenhuma entidade única serve como regulador ou ponto único de falha para a raiz de confiança.
 
-  Robusto: O conjunto de protocolos especifica um ciclo de vida completo de um dispositivo — começando com a experiência pronta para uso, passando por protocolos     operacionais, até as especificações de gerenciamento de dispositivos e sistemas necessárias para o funcionamento adequado na presença de alterações.
+  *Robusto*: O conjunto de protocolos especifica um ciclo de vida completo de um dispositivo — começando com a experiência pronta para uso, passando por protocolos     operacionais, até as especificações de gerenciamento de dispositivos e sistemas necessárias para o funcionamento adequado na presença de alterações.
   
-  Baixa sobrecarga: os protocolos são praticamente implementáveis em dispositivos com poucos recursos de computação, como MCUs.
+  *Baixa sobrecarga*: os protocolos são praticamente implementáveis em dispositivos com poucos recursos de computação, como MCUs.
 
-  Pervasivo: Os protocolos são amplamente implantáveis e acessíveis, graças ao uso do IP e à implementação em dispositivos de baixa capacidade.
+  *Pervasivo*: Os protocolos são amplamente implantáveis e acessíveis, graças ao uso do IP e à implementação em dispositivos de baixa capacidade.
 
-  Ecossistema-Flexível: O protocolo deve ser flexível o suficiente para acomodar a implantação em ecossistemas com políticas diferentes.
+  *Ecossistema-Flexível*: O protocolo deve ser flexível o suficiente para acomodar a implantação em ecossistemas com políticas diferentes.
 
-  Fácil de usar: o protocolo deve ter como objetivo fornecer um provisionamento suave, coeso e integrado e uma experiência pronta para uso.
+  *Fácil de usar*: o protocolo deve ter como objetivo fornecer um provisionamento suave, coeso e integrado e uma experiência pronta para uso.
 
   *Aberto*: A concepção e os processos técnicos do Projeto devem ser abertos e transparentes para o público em geral, inclusive para não membros, sempre que possível.
