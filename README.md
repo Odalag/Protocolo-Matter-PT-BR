@@ -61,3 +61,11 @@ sete componentes principais:
 6- Message Framing & Routing: Com uma interação criptografada e assinada, a Message Layer constrói o formato da carga com campos de cabeçalho obrigatórios e opcionais; que especificam as propriedades da mensagem, bem como algumas informações de roteamento.
 
 7- Gerenciamento de Enquadramento e Transporte de IP: Após a construção da carga útil final, ela é enviada ao protocolo de transporte subjacente para gerenciamento de IP dos dados.
+
+# Status atual do assunto
+
+O design e os processos técnicos da Matter devem ser abertos e transparentes para o público em geral, inclusive para não membros do Grupo de Trabalho, sempre que possível. A disponibilidade deste repositório GitHub e seu código-fonte sob uma licença Apache v2 é uma etapa importante e demonstrável para alcançar esse compromisso.
+
+A Matter se esforça para reunir os melhores aspectos das tecnologias testadas no mercado e reimplantá-las como uma solução unificada e coesa de todo o sistema. O objetivo geral dessa abordagem é levar os benefícios da Matéria aos consumidores e fabricantes o mais rápido possível. Como resultado, o que você observa neste repositório é uma abordagem de implementação em primeiro lugar para a especificação técnica, verificando integrações na prática.
+
+O repositório do Matter está crescendo e evoluindo para implementar a arquitetura geral. O repositório atualmente contém as bases de segurança, enquadramento e expedição de mensagens, uma implementação do modelo de interação e modelo de dados. Os exemplos de código mostram interações simples e são suportados em vários transportes - Wi-Fi e Thread - começando com plataformas de silício com restrição de recursos (ou seja, memória, processamento) para ajudar a garantir a escalabilidade do Matter.
