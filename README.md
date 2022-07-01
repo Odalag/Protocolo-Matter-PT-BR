@@ -39,3 +39,25 @@ Objetivos de desenvolvimento
   *Fácil de usar*: o protocolo deve ter como objetivo fornecer um provisionamento suave, coeso e integrado e uma experiência pronta para uso.
 
   *Aberto*: A concepção e os processos técnicos do Projeto devem ser abertos e transparentes para o público em geral, inclusive para não membros, sempre que possível.
+
+# Visão da arquitetura
+
+O Projeto, conforme ilustrado acima, define a camada de aplicação que será implantada em dispositivos e controladores, bem como as redes baseadas em IPv6 suportadas para ajudar a atingir nossa meta de arquitetura de interoperabilidade. A Matter inicialmente oferecerá suporte a Wi-Fi e Thread para comunicações operacionais principais e Bluetooth Low Energy (BLE) para simplificar o comissionamento e a configuração do dispositivo.
+
+A camada de aplicação 
+pode ser dividida em 
+sete componentes principais:
+
+1- Aplicação: Lógica de negócios de alta ordem de um dispositivo. Por exemplo, um aplicativo focado em iluminação pode conter lógica para ligar/desligar a lâmpada, bem como suas características de cor.
+
+2- Modelo de dados: primitivas de dados que ajudam a descrever as várias funcionalidades dos dispositivos. O Aplicativo opera nessas estruturas de dados quando há intenção de interagir com o dispositivo.
+
+3- Modelo de interação: representa um conjunto de ações que podem ser executadas nos dispositivos para interagir com ele. Por exemplo, ler ou escrever atributos em um dispositivo corresponderia a interações com os dispositivos. Essas ações operam nas estruturas definidas pelo modelo de dados.
+
+4- Enquadramento de Ação: Uma vez que uma ação é construída usando o Modelo de Interação, ela é enquadrada em um formato binário empacotado prescritivo para permitir que seja bem representada no “fio”.
+
+5- Segurança: Um quadro de ação codificado é então enviado para a camada de segurança para criptografar e assinar a carga para garantir que os dados sejam protegidos e autenticados pelo remetente e pelo destinatário de um pacote.
+
+6- Message Framing & Routing: Com uma interação criptografada e assinada, a Message Layer constrói o formato da carga com campos de cabeçalho obrigatórios e opcionais; que especificam as propriedades da mensagem, bem como algumas informações de roteamento.
+
+7- Gerenciamento de Enquadramento e Transporte de IP: Após a construção da carga útil final, ela é enviada ao protocolo de transporte subjacente para gerenciamento de IP dos dados.
